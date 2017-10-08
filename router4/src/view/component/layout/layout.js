@@ -8,7 +8,7 @@ const Layout = () => (
       </span>
       <div className="mdl-layout-spacer">
         <h6>
-          <span>Development ( @Html.Raw(s.Replace("Initial Catalog=", "DB being Used")))
+          <span> App
          </span>
         </h6>
 
@@ -29,12 +29,12 @@ const Layout = () => (
     <span className="mdl-layout__title">Menu</span>
     <nav className="mdl-navigation">
       <a className="mdl-navigation__link" href="~/Home/Index">
-        <i className="material-icons">build</i> Upload Consent
+        <i className="material-icons">build</i> Link 1
                 </a>
-      <a className="mdl-navigation__link" href="~/Home/CurrentConsents"><i className="material-icons">visibility</i> Consents</a>
-      <a className="mdl-navigation__link" href=""><i className="material-icons">dashboard</i> Metrics</a>
-      <a className="mdl-navigation__link" href="~/Access/Index"><i className="material-icons">face</i> Consent Users</a>
-      <a className="mdl-navigation__link" href="~//Documentation/Index"><i className="material-icons">mode_comment</i>Documentation</a>
+      <a className="mdl-navigation__link" href="~/Home/CurrentConsents"><i className="material-icons">visibility</i> Link 2</a>
+      <a className="mdl-navigation__link" href=""><i className="material-icons">dashboard</i> Link 3</a>
+      <a className="mdl-navigation__link" href="~/Access/Index"><i className="material-icons">face</i> Link 4</a>
+      <a className="mdl-navigation__link" href="~//Documentation/Index"><i className="material-icons">mode_comment</i>Link 4</a>
     </nav>
   </div>
   <div className="page-content">
