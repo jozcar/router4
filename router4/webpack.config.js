@@ -5,7 +5,7 @@ var CommonsChunkPlugin = require('./node_modules/webpack/lib/optimize/CommonsChu
 
 module.exports = { 
     entry: {
-        index : './src2/index', 
+        index : './src/index', 
         vendor: ['react','react-dom']
     }, 
     output: {
